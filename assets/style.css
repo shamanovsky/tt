@@ -1,0 +1,133 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dde2ee;
+}
+/* Navbar */
+.navbar{
+    background-color: #3a42e2 !important;
+    border-bottom: 3px solid #192094;
+    padding: 0 !important;
+}
+
+.nav-link{
+    color: black !important;
+    padding: 16px !important;
+}
+
+.navbar-brand{
+    font-weight: 600;
+}
+.nav-item:hover .nav-link, .nav-link.active{
+    background-color: #e6fe00;
+}
+
+/* Main section */
+
+main{
+    min-height: calc(100vh - 102px);
+}
+
+.title h2{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #192094;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+/* Homepage */
+.hero{
+    padding: 150px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(images/hero.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.hero h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.gallery img{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.gallery img:hover{
+    box-shadow: 0 0 10px #c0c0c0;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+/* About us */
+.about{
+    font-size: 18px;
+}
+
+.about p{
+    line-height: 32px;
+}
+
+.navbar-toggler{
+    margin: 10px 0;
+}
+/* Products */
+.products .card{
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.products .card:hover{
+    box-shadow: 0 0 5px #c0c0c0;
+}
+
+.btn.btn-primary{
+    background-color: #192094 !important;
+    border-color: #e6fe00 !important;
+}
+
+.btn-primary:hover{
+    background-color: #58d958 !important;
+}
+
+.products .btn-primary{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+
+/* Cart */
+.cart .it_img{
+    height: 60px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.cart .table{
+    vertical-align: middle;
+}
+
+/* Checkout */
+.details{
+    position: sticky;
+    top: 20px;
+}
+/* Footer */
+footer{
+    background-color: #3a42e2;
+    border-top: 3px solid #192094;
+}
